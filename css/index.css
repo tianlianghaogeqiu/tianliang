@@ -1,0 +1,1126 @@
+/*头部开始*/
+.head {
+    width: 1200px;
+    height: 68px;
+    border-bottom: 1px solid #F2F2F2;
+    /*background-color: red;*/
+}
+
+.logo {
+    float: left;
+    width: 126px;
+    height: 68px;
+}
+
+.logo a {
+    width: 126px;
+    height: 68px;
+    display: block;
+    background-image: url(../images/logo.png);
+    text-indent: -2000em;
+}
+
+.my-music ul li {
+    height: 68px;
+    width: 80px;
+    /*background-color: red;*/
+    float: left;
+    text-align: center;
+}
+
+.my-music ul li a {
+    display: block;
+    height: 43px;
+    width: 100px;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    padding-top: 25px;
+}
+
+.my-music ul li:hover a {
+    color: #31C27C;
+}
+
+.my-music ul li .music-one {
+    background-color: #31C27C;
+    color: white;
+}
+
+.my-music ul li:hover .music-one {
+    color: white;
+}
+
+.head .searchBox {
+    position: relative;
+    border: 1px solid #C9C9C9;
+    float: left;
+    width: 256px;
+    height: 36px;
+    left: 41px;
+    top: 12px;
+}
+
+.head .search {
+    width: 250px;
+    height: 30px;
+    border: 2px solid #C9C9C9;
+    border-radius: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    color: #C9C9C9;
+}
+
+.head .xinwen-one {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 68px;
+    left: 201px;
+    z-index: 2;
+    display: none;
+}
+
+.head .xinwen-one li {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.head .xinwen-one li:hover {
+    background-color: #c9c9c9;
+    color: white;
+}
+
+.head .xinwen-two {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 68px;
+    left: 301px;
+    z-index: 2;
+    display: none;
+}
+
+.head .xinwen-two li {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.head .xinwen-two li:hover {
+    background-color: #c9c9c9;
+    color: white;
+}
+
+.head .xinwen-three {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 68px;
+    left: 390px;
+    z-index: 2;
+    display: none;
+}
+
+.head .xinwen-three li {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.head .xinwen-three li:hover {
+    background-color: #c9c9c9;
+    color: white;
+}
+
+.head .xinwen-four {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 68px;
+    left: 465px;
+    z-index: 2;
+    display: none;
+}
+
+.head .xinwen-four li {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.head .xinwen-four li:hover {
+    background-color: #c9c9c9;
+    color: white;
+}
+
+.head .xinwen-five {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 68px;
+    left: 550px;
+    z-index: 2;
+    display: none;
+}
+
+.head .xinwen-five li {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.head .xinwen-five li:hover {
+    background-color: #c9c9c9;
+    color: white;
+}
+
+.head .xinwen-six {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 68px;
+    left: 624px;
+    z-index: 2;
+    display: none;
+}
+
+.head .xinwen-six li {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.head .xinwen-six li:hover {
+    background-color: #c9c9c9;
+    color: white;
+}
+
+.head .searchBox img {
+    position: absolute;
+    left: 870px;
+    top: 23px;
+}
+
+.head .moren {
+    width: 254px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 730px;
+    display: none;
+    z-index: 2;
+}
+
+.head .moren span {
+    color: red;
+}
+
+.head .moren .resou {
+    position: absolute;
+    font-size: 12px;
+    right: 10px;
+}
+
+.head .moren li {
+    width: 254px;
+    height: 30px;
+    font-size: 17px;
+    line-height: 30px;
+    position: relative;
+}
+
+.head .moren li:hover {
+    background-color: #31C27C;
+    color: white;
+}
+
+.top-right {
+    height: 68px;
+    width: 290px;
+    /*background-color: green;*/
+    float: right;
+    position: relative;
+
+}
+
+.denglu {
+    height: 68px;
+    width: 90px;
+    /*background-color: red;*/
+    /*position: absolute;*/
+    /*left: 988px;*/
+    font-size: 20px;
+    line-height: 68px;
+    text-align: center;
+    float: left;
+}
+
+.zhuce {
+    height: 68px;
+    width: 90px;
+    /*background-color: red;*/
+    /*position: absolute;*/
+    /*left: 1080px;*/
+    font-size: 20px;
+    line-height: 68px;
+    text-align: center;
+    float: left;
+}
+
+.denglu a {
+    display: block;
+    height: 68px;
+    width: 90px;
+}
+
+.zhuce a {
+    display: block;
+    height: 68px;
+    width: 90px;
+}
+
+.denglu a:hover {
+    background-color: #31C27C;
+    color: white;
+
+}
+
+.zhuce a:hover {
+    background-color: #31C27C;
+    color: white;
+}
+
+.heying {
+    /*position: absolute;*/
+    width: 110px;
+    height: 68px;
+    float: left;
+    /*right: 80px;*/
+}
+
+/*头部结束*/
+
+/*导航开始*/
+.nav {
+    height: 50px;
+    /*background-color: green;*/
+}
+
+.nav li a:hover {
+    color: #00BC7C;
+}
+
+.nav-left {
+    float: left;
+    height: 50px;
+    width: 210px;
+    /*background-color: pink;*/
+}
+
+.nav li {
+    float: left;
+    height: 50px;
+    width: 80px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.nav li a {
+    display: block;
+    height: 50px;
+    width: 80px;
+    font-size: 16px;
+}
+
+.nav .nav-left li:hover a {
+    color: #31C27C;
+}
+
+/*导航结束*/
+
+/*大图开始*/
+.bigPic {
+    width: 1349px;
+    height: 735px;
+    background: url("../images/bgimg1.jpg") no-repeat;
+}
+
+#box {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+    left: 66px;
+    top: 60px;
+}
+
+#box li {
+    width: 1200px;
+    height: 600px;
+    /*float: left;*/
+    position: absolute;
+}
+
+#box ul {
+    width: 1200px;
+}
+
+/*大图结束*/
+
+/*精彩推荐开始*/
+.jingcai {
+    height: 100px;
+    /*background-color: yellow;*/
+}
+
+.jingcai p {
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: 900;
+}
+
+/*精彩推荐结束*/
+
+/*旋转木马开始*/
+
+.wrap {
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.slide {
+    height: 500px;
+    position: relative;
+}
+
+.slide li {
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+
+.slide li img {
+    width: 100%;
+}
+
+.arrow {
+    opacity: 0;
+    position: absolute;
+    top: 200px;
+    z-index: 1000;
+}
+
+.arrow .next {
+    left: 1120px;
+}
+
+.prev, .next {
+    width: 76px;
+    height: 112px;
+    position: absolute;
+    top: 50%;
+    margin-top: -56px;
+    background: url(../images/prev.png) no-repeat;
+    z-index: 99;
+}
+
+.next {
+    right: 0;
+    background-image: url(../images/next.png);
+}
+
+/*旋转木马结束*/
+
+/*排行榜开始*/
+.huanhang {
+    height: 100px;
+}
+
+.huanhang p {
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.paihang {
+    width: 1349px;
+    height: 500px;
+    background: url("../images/bgimg2.jpg") no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.paihang .bofang {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 156px;
+    left: 560px;
+    z-index: 1;
+}
+
+.paihang .paihang-1 {
+    width: 1100px;
+    height: 500px;
+    /*background-color: yellow;*/
+    /*opacity: 0.5;*/
+    position: absolute;
+    left: 120px;
+    /*display: none;*/
+}
+
+.paihang .paihang-1 .one .bottom li:hover a {
+    color: #00BC7C;
+}
+
+.paihang .paihang-1 .one {
+    width: 275px;
+    height: 500px;
+    /*border: 1px solid #000;*/
+    position: absolute;
+    top: -500px;
+    background: url("../images/111.jpg") no-repeat;
+    transition: all 0.5s;
+    z-index: 2;
+    display: none;
+}
+
+.paihang .paihang-1 .one .top {
+    width: 275px;
+    height: 200px;
+    /*background-color: pink;*/
+}
+
+.paihang .paihang-1 .one .top .ding {
+    height: 100px;
+    width: 275px;
+    /*background-color: yellow;*/
+}
+
+.paihang .paihang-1 .one .top p {
+    text-align: center;
+}
+
+.paihang .paihang-1 .one .top .zi1 {
+    height: 20px;
+    width: 273px;
+}
+
+.paihang .paihang-1 .one .top .zi1 p {
+    font-size: 20px;
+    color: white;
+}
+
+.paihang .paihang-1 .one .top .zi2 {
+    height: 30px;
+    width: 273px;
+}
+
+.paihang .paihang-1 .one .top .zi2 p {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    line-height: 30px;
+}
+
+.paihang .paihang-1 .one .bottom {
+    width: 275px;
+    height: 300px;
+    /*background-color: yellow;*/
+}
+
+.paihang .paihang-1 .one .bottom .ding-d {
+    width: 275px;
+    height: 80px;
+    /*background-color: red;*/
+}
+
+.paihang .paihang-1 .one .bottom .kuang {
+    width: 180px;
+    height: 200px;
+    /*background-color: green;*/
+    float: left;
+}
+
+.paihang .paihang-1 .one .bottom .kuang .songs p {
+    font-size: 14px;
+    color: white;
+}
+
+.paihang .paihang-1 .two {
+    width: 275px;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    left: 275px;
+    background: url("../images/333.jpg") no-repeat;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+.paihang .paihang-1 .two .top {
+    width: 275px;
+    height: 200px;
+    /*background-color: pink;*/
+}
+
+.paihang .paihang-1 .two .top .ding {
+    height: 100px;
+    width: 275px;
+    /*background-color: yellow;*/
+}
+
+.paihang .paihang-1 .two .top p {
+    text-align: center;
+}
+
+.paihang .paihang-1 .two .top .zi1 {
+    height: 20px;
+    width: 273px;
+}
+
+.paihang .paihang-1 .two .top .zi1 p {
+    font-size: 20px;
+    color: white;
+}
+
+.paihang .paihang-1 .two .top .zi2 {
+    height: 30px;
+    width: 273px;
+}
+
+.paihang .paihang-1 .two .top .zi2 p {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    line-height: 30px;
+}
+
+.paihang .paihang-1 .two .bottom {
+    width: 275px;
+    height: 300px;
+    /*background-color: yellow;*/
+}
+
+.paihang .paihang-1 .two .bottom .ding-d {
+    width: 275px;
+    height: 80px;
+    /*background-color: red;*/
+}
+
+.paihang .paihang-1 .two .bottom .kuang {
+    width: 180px;
+    height: 200px;
+    /*background-color: green;*/
+    float: left;
+}
+
+.paihang .paihang-1 .two .bottom .kuang .songs p {
+    font-size: 14px;
+    color: white;
+}
+
+.paihang .paihang-1 .three {
+    width: 275px;
+    height: 500px;
+    position: absolute;
+    top: -500px;
+    left: 550px;
+    background: url("../images/222.jpg") no-repeat;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+.paihang .paihang-1 .three .top {
+    width: 275px;
+    height: 200px;
+    /*background-color: pink;*/
+}
+
+.paihang .paihang-1 .three .top .ding {
+    height: 100px;
+    width: 275px;
+    /*background-color: yellow;*/
+}
+
+.paihang .paihang-1 .three .top p {
+    text-align: center;
+}
+
+.paihang .paihang-1 .three .top .zi1 {
+    height: 20px;
+    width: 273px;
+}
+
+.paihang .paihang-1 .three .top .zi1 p {
+    font-size: 20px;
+    color: white;
+}
+
+.paihang .paihang-1 .three .top .zi2 {
+    height: 30px;
+    width: 273px;
+}
+
+.paihang .paihang-1 .three .top .zi2 p {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    line-height: 30px;
+}
+
+.paihang .paihang-1 .three .bottom {
+    width: 275px;
+    height: 300px;
+    /*background-color: yellow;*/
+}
+
+.paihang .paihang-1 .three .bottom .ding-d {
+    width: 275px;
+    height: 80px;
+    /*background-color: red;*/
+}
+
+.paihang .paihang-1 .three .bottom .kuang {
+    width: 180px;
+    height: 200px;
+    /*background-color: green;*/
+    float: left;
+}
+
+.paihang .paihang-1 .three .bottom .kuang .songs p {
+    font-size: 14px;
+    color: white;
+}
+
+.paihang .paihang-1 .four {
+    width: 275px;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    left: 825px;
+    background: url("../images/444.jpg") no-repeat;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+.paihang .paihang-1 .four:hover {
+    transform: scale(1.1);
+}
+
+.paihang .paihang-1 .three:hover {
+    transform: scale(1.1);
+}
+
+.paihang .paihang-1 .two:hover {
+    transform: scale(1.1);
+}
+
+.paihang .paihang-1 .one:hover {
+    transform: scale(1.1);
+}
+
+.paihang .paihang-1 .four .top {
+    width: 275px;
+    height: 200px;
+    /*background-color: pink;*/
+}
+
+.paihang .paihang-1 .four .top .ding {
+    height: 100px;
+    width: 275px;
+    /*background-color: yellow;*/
+}
+
+.paihang .paihang-1 .four .top p {
+    text-align: center;
+}
+
+.paihang .paihang-1 .four .top .zi1 {
+    height: 20px;
+    width: 273px;
+}
+
+.paihang .paihang-1 .four .top .zi1 p {
+    font-size: 20px;
+    color: white;
+}
+
+.paihang .paihang-1 .four .top .zi2 {
+    height: 30px;
+    width: 273px;
+}
+
+.paihang .paihang-1 .four .top .zi2 p {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    line-height: 30px;
+}
+
+.paihang .paihang-1 .four .bottom {
+    width: 275px;
+    height: 300px;
+    /*background-color: yellow;*/
+}
+
+.paihang .paihang-1 .four .bottom .ding-d {
+    width: 275px;
+    height: 80px;
+    /*background-color: red;*/
+}
+
+.paihang .paihang-1 .four .bottom .kuang {
+    width: 180px;
+    height: 200px;
+    /*background-color: green;*/
+    float: left;
+}
+
+.paihang .paihang-1 .four .bottom .kuang .songs li {
+    width: 180px;
+    height: 40px;
+}
+
+.paihang .paihang-1 .four .bottom .kuang .songs li a {
+    font-size: 14px;
+    color: white;
+}
+
+.paihang .paihang-1 .three .bottom .kuang .songs li {
+    width: 180px;
+    height: 40px;
+}
+
+.paihang .paihang-1 .three .bottom .kuang .songs li a {
+    font-size: 14px;
+    color: white;
+}
+
+.paihang .paihang-1 .two .bottom .kuang .songs li {
+    width: 180px;
+    height: 40px;
+}
+
+.paihang .paihang-1 .two .bottom .kuang .songs li a {
+    font-size: 14px;
+    color: white;
+}
+
+.paihang .paihang-1 .one .bottom .kuang .songs li {
+    width: 180px;
+    height: 40px;
+}
+
+.paihang .paihang-1 .one .bottom .kuang .songs li a {
+    font-size: 14px;
+    color: white;
+}
+
+/*排行榜结束*/
+
+/*图片缩放开始*/
+.suofang {
+    width: 1210px;
+    height: 1050px;
+    margin-top: 30px;
+    background-color: #757584;
+}
+
+.suofang .picwall {
+    height: 100px;
+    background-color: white;
+}
+
+.suofang .picwall p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.img {
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    float: left;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 0px;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+.img img {
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.img:hover {
+    -webkit-transform: scale(0.8);
+    -webkit-box-shadow: 0px 0px 30px #ccc;
+    -moz-transform: scale(0.8);
+    -moz-box-shadow: 0px 0px 30px #ccc;
+    -o-transform: scale(0.8);
+    -o-box-shadow: 0px 0px 30px #ccc;
+}
+
+.img .mask {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    height: 100%;
+    opacity: 0.6;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+#img-1:hover .mask {
+    height: 0%;
+}
+
+#img-2:hover .mask {
+    height: 0%;
+    margin-top: 130px;
+}
+
+#img-4:hover .mask {
+    margin-left: 219px;
+    margin-top: 135px;
+    height: 0%;
+    width: 0%;
+}
+
+#img-3 #mask-1 {
+    width: 50%;
+}
+
+#img-3 #mask-2 {
+    width: 50%;
+    margin-left: 211px;
+}
+
+#img-3:hover #mask-1 {
+    width: 0%;
+}
+
+#img-3:hover #mask-2 {
+    margin-left: 430px;
+    width: 0%;
+}
+
+#img-5:hover .mask {
+    margin-left: 219px;
+    margin-top: 135px;
+    height: 0%;
+    width: 0%;
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(-360deg);
+}
+
+#img-6:hover .mask {
+    margin-left: 219px;
+    margin-top: 135px;
+    height: 0%;
+    width: 0%;
+    -webkit-transform: rotateZ(750deg);
+    -moz-transform: rotateZ(750deg);
+    -o-transform: rotate(750deg);
+}
+
+/*图片缩放结束*/
+
+/*底部隔断开始*/
+.geduan {
+    height: 40px;
+    background-color: white;
+}
+
+/*底部隔断结束*/
+
+/*尾部开始*/
+.bigbox {
+    height: 470px;
+    width: 1349px;
+    background-color: #333333;
+}
+
+.footer {
+    height: 470px;
+    background-color: #333333;
+}
+
+.footer .footer-t {
+    height: 83px;
+    /*background-color: red;*/
+}
+
+.footer .footer-m {
+    height: 68px;
+    /*background-color: white;*/
+}
+
+.footer .zuobian {
+    width: 465px;
+    height: 130px;
+    float: left;
+    /*background-color: white;*/
+}
+
+.footer .footer-m .xiazai1 {
+    height: 68px;
+    width: 465px;
+    float: left;
+    /*background-color: yellow;*/
+}
+
+.footer .footer-m .xiazai2 {
+    height: 68px;
+    width: 425px;
+    float: left;
+    /*background-color: blue;*/
+}
+
+.footer .footer-m .xiazai3 {
+    height: 68px;
+    width: 310px;
+    float: left;
+    /*background-color: pink;*/
+}
+
+.footer .footer-m p {
+    font-size: 16px;
+    color: #606070;
+}
+
+.footer .tupian1 {
+    width: 350px;
+    height: 50px;
+    /*background-color: white;*/
+    background: url("../images/footer.png") no-repeat;
+}
+
+.footer .tupianwenzi1 {
+    width: 464px;
+    height: 50px;
+    /*background-color: white;*/
+}
+
+.footer p {
+    color: #7F7F7F;
+}
+
+.footer li:hover {
+    color: black;
+}
+
+.footer .footer-m a:hover {
+    color: black;
+}
+
+.footer .zhongjian {
+    width: 425px;
+    height: 130px;
+    float: left;
+    /*background-color: yellow;*/
+}
+
+.footer .zhongjian .tupian2 {
+    height: 50px;
+    width: 243px;
+    background: url("../images/QQ图片20161210162757.png") no-repeat;
+}
+
+.footer .youbian {
+    height: 130px;
+    width: 310px;
+    /*background-color: blue;*/
+    float: left;
+}
+
+.footer .youbian .liebiao1, .liebiao2, .liebiao3 {
+    height: 130px;
+    width: 100px;
+    float: left;
+    /*background-color: red;*/
+}
+
+.footer .youbian li {
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.footer .footer-m1 {
+    height: 130px;
+    width: 1200px;
+}
+
+.footer .footer-b {
+    width: 1200px;
+    height: 90px;
+    /*background-color: white;*/
+}
+
+.footer .footer-b1 {
+    width: 1200px;
+    height: 100px;
+    /*background-color: greenyellow;*/
+}
+
+.footer .footer-b1 .diyi {
+    width: 600px;
+    height: 20px;
+    /*background-color: red;*/
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.footer .footer-b1 .diyi li {
+    float: left;
+    padding: 0px 20px;
+}
+
+.footer .footer-b1 .dier {
+    width: 300px;
+    height: 20px;
+    /*background-color: green;*/
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.footer .footer-b1 .disan {
+    width: 240px;
+    height: 20px;
+    /*background-color: blue;*/
+    margin: 0 auto;
+}
+
+.footer a:hover {
+    color: #00BC7C;
+}
+
+/*尾部结束*/
